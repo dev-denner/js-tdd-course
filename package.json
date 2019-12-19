@@ -1,0 +1,28 @@
+{
+  "name": "js-tdd-course",
+  "version": "1.0.0",
+  "description": "Nossa bibliteca do curso de tdd js na prática",
+  "main": "index.js",
+  "dependencies": {
+    "user": "^0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-denner/js-tdd-course.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library"
+  ],
+  "author": "Denner Fernandes <dev.denner@outlook.com> (http://dev-denner.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dev-denner/js-tdd-course/issues"
+  },
+  "homepage": "https://github.com/dev-denner/js-tdd-course#readme"
+}
