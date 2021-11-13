@@ -3,18 +3,6 @@
   "version": "1.0.0",
   "description": "Nossa bibliteca do curso de tdd js na prática",
   "main": "index.js",
-  "dependencies": {
-    "user": "^0.0.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.2.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.25.3"
-  },
-  "scripts": {
-    "lint": "npx eslint src/*.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dev-denner/js-tdd-course.git"
@@ -29,5 +17,19 @@
   "bugs": {
     "url": "https://github.com/dev-denner/js-tdd-course/issues"
   },
-  "homepage": "https://github.com/dev-denner/js-tdd-course#readme"
+  "homepage": "https://github.com/dev-denner/js-tdd-course#readme",
+  "scripts": {
+    "lint": "npx eslint src/*.js",
+    "prepush": "npm run lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "user": "^0.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "husky": "^7.0.4"
+  }
 }
