@@ -6,7 +6,11 @@
   "dependencies": {
     "user": "^0.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
