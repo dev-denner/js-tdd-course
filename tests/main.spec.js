@@ -1,29 +1,18 @@
-describe('Main', function () {
-  describe('Method A', function () {
-    context('Case 1', function () {
-      it('should happen blabla', function () {
-        // espera que aconteça
-        // Entra de dados / método sum(2,2)
-        // Espera retornar (4) => true | (3) => false => broken test
-      });
-    });
+/* eslint-disable no-undef */
+describe('Main', () => {
+  // roda uma vez, antes do bloco
+  before(() => { console.log('before'); });
 
-    context('Case 2', function () {
-      it('should happen blabla', function () {
-        // espera que aconteça
-        // Entra de dados / método sum(2,2)
-        // Espera retornar (4) => true | (3) => false => broken test
-      });
+  // roda uma vez, depois do bloco
+  after(() => { console.log('after'); });
 
-      it('should happen mimimi', function () {
-        // espera que aconteça
-        // Entra de dados / método sum(2,2)
-        // Espera retornar (4) => true | (3) => false => broken test
-      });
-    });
-  });
+  // roda todas as vezes, antes do cada bloco
+  beforeEach(() => { console.log('beforeEach'); });
 
-  describe('Method B', function () {
+  // roda todas as vezes, depois do cada bloco
+  afterEach(() => { console.log('afterEach'); });
 
-  });
+  it('test 1', () => { console.log('test1'); });
+
+  it('test 2', () => { console.log('test2'); });
 });
