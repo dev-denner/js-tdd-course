@@ -10,4 +10,8 @@ const FizzBuzz = (num) => {
   return result;
 };
 
+function foo() {
+  return 'bar';
+}
+
 export default FizzBuzz;
