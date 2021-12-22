@@ -2,5 +2,10 @@
   "extends": "airbnb-base",
   "plugins": [
     "import"
-  ]
+  ],
+  "rules": {
+    "linebreak-style": [
+      "error", process.platform === "win32" ? "windows": "unix"
+    ]
+  }
 }
